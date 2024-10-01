@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iiTzMeDoO - Gaming Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Mylogo.ico" alt="iiTzMeDoO Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#stream">Live Stream</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#socials">Socials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to iiTzMeDoO's Gaming World</h1>
+            <p>Join me for thrilling streams and unforgettable gaming moments!</p>
+            <a href="#stream" class="btn">Watch Live</a>
+        </div>
+    </section>
+
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm Mohamad, a passionate gamer and content creator. Join me as I explore exciting games and engage with my community!</p>
+        </div>
+    </section>
+
+    <section id="stream" class="stream-section">
+        <div class="container">
+            <h2>Live Stream</h2>
+            <div class="stream-container">
+                <iframe src="https://player.twitch.tv/?channel=iiTzMeDoO&parent=yourwebsite.com" 
+                        height="480" width="854" frameborder="0" 
+                        allowfullscreen="true" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <h2>Streaming Schedule</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">Monday: 6 PM - 9 PM</div>
+                <div class="schedule-item">Wednesday: 6 PM - 9 PM</div>
+                <div class="schedule-item">Friday: 6 PM - 9 PM</div>
+                <div class="schedule-item">Sunday: 12 PM - 4 PM</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="socials" class="socials-section">
+        <div class="container">
+            <h2>Follow Me</h2>
+            <div class="socials-grid">
+                <a href="https://twitter.com/YOUR_TWITTER_USERNAME" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/Muhammed_Arab" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/channel/YOUR_YOUTUBE_CHANNEL" target="_blank">YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 iiTzMeDoO. All rights reserved.</p>
+            <p><a href="mailto:mhd.arab03@gmail.com">mhd.arab03@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
